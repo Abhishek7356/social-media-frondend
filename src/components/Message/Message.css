@@ -1,0 +1,42 @@
+.message {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.ownmessage {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.ownimgAndMsg {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5px;
+}
+.imgAndMsg {
+    display: flex;
+    gap: 5px;
+}
+
+.userProImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userTextMsg {
+    max-width: 400px;
+    background-image: linear-gradient(#3c3cd5, #22229a);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: white;
+}
+
+.time {
+    margin-top: 0;
+}

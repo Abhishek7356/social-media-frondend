@@ -1,0 +1,194 @@
+.profileConatiner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightSection {
+    flex: 10;
+}
+
+.profileTopSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 450px;
+}
+
+.profilePostSection {
+    display: flex;
+}
+
+.coverImg {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.profileDiv {
+    transform: translate(0, -100px);
+    text-align: center;
+}
+
+.profilePic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.forImg {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgContainer {
+    border-radius: 50%;
+    position: relative;
+}
+
+.imgContainer label {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    z-index: 3;
+    font-size: 25px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.outerCoverPic {
+    position: relative;
+    z-index: -1;
+}
+
+.coverUpdateBtn {
+    position: absolute;
+    top: 24%;
+    right: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    background-image: linear-gradient(90deg, rgb(116, 186, 209), lightblue);
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.outerDiv {
+    position: relative;
+}
+
+.coverImageCancelOrSaveBtns {
+    position: absolute;
+    display: flex;
+    gap: 5px;
+    top: 24%;
+    right: 60px;
+    z-index: 3;
+}
+
+.discardBtn {
+    border: 0;
+    outline: 0;
+    width: 70px;
+    font-size: 12px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 50px;
+    background-image: linear-gradient(90deg, rgb(116, 186, 209), lightblue);
+}
+
+.saveBtn {
+    border: 0;
+    outline: 0;
+    width: 70px;
+    font-size: 12px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 50px;
+    background-image: linear-gradient(90deg, rgb(84, 211, 126), rgb(100, 225, 142));
+}
+
+.coverImageCancelOrSaveBtns button:hover {
+    width: 90px;
+    transition: .5s;
+}
+
+.userUpdateBtn {
+    border: 0;
+    outline: 0;
+    position: absolute;
+    top: 330px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 50%;
+    background-image: linear-gradient(90deg, rgb(116, 186, 209), lightblue);
+}
+
+.updateModeBtnAndInput {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.UpdateNameAndAbout {
+    display: flex;
+    gap: 5px;
+}
+
+.UpdateNameAndAbout input {
+    width: 230px;
+    padding: 7px 13px;
+    border: 1px solid rgba(128, 128, 128, 0.534);
+    border-radius: 7px;
+}
+
+.updateModeBtnAndInput button {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    outline: 0;
+    font-weight: bold;
+    border-radius: 2px;
+    color: white;
+}
+
+.updateDiscardBtn {
+    background-image: linear-gradient(90deg, rgb(116, 186, 209), lightblue);
+}
+
+.UpdateBtn {
+    background-image: linear-gradient(90deg, rgb(84, 211, 126), rgb(100, 225, 142));
+}
+
+.updateModeBtnAndInput button:hover {
+    transition: .1s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 23px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}

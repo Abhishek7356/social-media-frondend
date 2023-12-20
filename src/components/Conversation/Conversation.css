@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conversation {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0 15px;
+    background-color: #4a484854;
+    padding: 15px;
+    /* border-radius: 7px; */
+}
+
+.conversation:hover {
+    background-color: #4a48488d;
+}
+
+.conversation img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}

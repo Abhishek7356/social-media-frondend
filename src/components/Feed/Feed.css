@@ -1,0 +1,9 @@
+.feedContainer {
+    flex: 8;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
+    /* border-right: 1px solid gray;  */
+}

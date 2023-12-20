@@ -1,0 +1,30 @@
+.onlineFrnds {
+    align-items: center;
+    gap: 20px;
+    margin: 0 15px;
+    padding: 15px;
+    border-radius: 7px;
+    display: flex;
+    cursor: pointer;
+}
+
+.onlineFrnds img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.imgContainer {
+    position: relative;
+}
+
+.onlineSign {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

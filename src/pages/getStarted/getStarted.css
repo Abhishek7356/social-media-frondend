@@ -1,0 +1,30 @@
+.outerContainer{
+    height: 92vh;
+    width: 100%;
+    /* background-image: linear-gradient(#2c2c2d,#27272a); */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    color: #2929db;
+    padding: 0 100px;
+    background-image: url('https://th.bing.com/th/id/R.5f2f721335e99a95a5a1da121fd24572?rik=Fsbfk8foZt0ZYw&riu=http%3a%2f%2fbrightlightcontent.com%2fwp-content%2fuploads%2f2017%2f07%2fBest-Social-Media-Channels-For-Your-Business.jpg&ehk=Mih8nEQR2%2flBKybL%2b0K04sok0DuBfTVUVpvbPToCEVs%3d&risl=&pid=ImgRaw&r=0');
+}
+.startedWrap{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.getStarted{
+    padding: 7px 40px;
+    border: 2px solid #2929db;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+}
+.getStarted:hover{
+    background-color: #2929db;
+    color: #fff;
+    transition: .3s;
+}
